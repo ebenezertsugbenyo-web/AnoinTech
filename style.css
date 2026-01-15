@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.2;
+    margin: 25;
+    color: #333;
+    
+    /* Background Image Settings */
+    background-image: url('background.jpg');
+    background-size: cover;       /* Scales image to cover the whole screen */
+    background-attachment: fixed; /* Keeps image still while you scroll */
+    background-position: center;  /* Centers the image */
+}
+.header-content {
+    display: flex;         /* Forces children to be side-by-side */
+    align-items: center;   /* Centers them vertically so they are perfectly level */
+    padding: 20px;
+    background-color: #121e50; /* Match your theme navy blue */
+    color: white;
+}
+.logo {
+    width: 170px;           /* Adjust size as needed */
+    height: auto;
+    margin-right: 160px;    /* Adds space between the logo and the text */
+}
+.text-content h1 {
+    margin: 0;             /* Removes default spacing around the title */
+    font-size: 2rem;
+}
+
+.text-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+/* Ensure the container is readable over the background */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.95); /* Slight transparency so background peeks through */
+    border-radius: 20px;
+    /* This container aligns the logo and text in a row */
+
+
+/* Style the logo */
+
+
+/* Optional: Style the text specifically */
+/* Container for the image */
+
+
+}
+
+.image-box {
+    width: 80%;           /* Container takes up 80% of the page width */
+    margin: 20px auto;    /* Centers the container on the page */
+    text-align: center;
+}
+
+/* The actual image styling */
+.feature-img {
+    width: 100%;          /* Makes the image fill its container */
+    max-width: 600px;     /* Prevents the image from becoming too huge on large screens */
+    height: auto;         /* Maintains the original aspect ratio so it doesn't look squished */
+    border-radius: 10px;  /* Rounds the corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Adds a subtle shadow for depth */
+    border: 3px solid #00a8cc; /* Adds a colored border matching your theme */
+}
